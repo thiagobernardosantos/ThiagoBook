@@ -28,6 +28,11 @@
     align-items: center;
 }
 
+.contain{
+    display: flex;
+    align-items: center;
+}
+
 .container__imagem {
     padding: 1em;
     
@@ -81,6 +86,7 @@
 }
 
 
+
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo--negrito {
         font-family: var(--fonte-principal);
@@ -95,6 +101,8 @@
     .container__titulo--negrito {
         font-weight: 700;
     }
+
+   
 
     .opções {
         display: flex;
